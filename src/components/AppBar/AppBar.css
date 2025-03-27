@@ -1,0 +1,7 @@
+.navbar-app {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: hsl(215, 90%, 32.7%);
+}

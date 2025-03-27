@@ -1,0 +1,37 @@
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+}
+
+.card-item, .input-card {
+    flex-grow: 1;
+    font-size: 14px;
+    height: 30px; 
+    line-height: 30px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.input-card {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+    margin-left: 5px;
+}

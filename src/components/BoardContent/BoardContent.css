@@ -1,0 +1,50 @@
+.board-colums {
+  display: flex;
+  overflow-x: auto;
+  margin: 0 10px 10px 0;
+  gap: 15px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.board-colums::-webkit-scrollbar-thumb {
+  background: rgba(63, 53, 53, 0.3); 
+  border-radius: 4px;
+}
+
+.board-colums::-webkit-scrollbar-track {
+  background: rgba(196, 9, 9, 0.1); 
+}
+
+.add-new-column {
+  display: flex;
+  align-items: center;  
+  gap: 8px; 
+  cursor: pointer; 
+  width: 250px;
+  height: 40px;
+  line-height: 32px;
+  padding: 4px 0 4px 15px;
+  color: white;
+  margin-left: 10px;
+  background-color: hsla(0, 0%, 100%, 0.24);
+  border-radius: 12px;
+}
+
+.add-new-column:hover {
+  background-color: hsla(0, 0%, 100%, 0.34);
+}
+
+.content-add-column {
+  width: 250px;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: hsla(0, 0%, 100%, 0.34);
+  border-radius: 5px;
+}
+
+.content-add-column .group-btn {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}

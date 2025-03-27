@@ -1,0 +1,110 @@
+.colums {
+    flex: 0 0 auto;
+    width: 300px;
+    height: calc(100vh - 40px - 50px);
+    margin-left: 15px;
+}
+
+.colums > * {
+    background-color: #ebebf0;
+    color: #333;
+    padding: 0 8px;
+}
+
+.colums header {
+    padding-left: 15px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.column-drag-handle {
+    display: flex;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.column-title {
+    width: 90%;
+}
+
+.column-dropdown {
+    width: 10%;
+}
+
+.dropdown-toggle {
+    padding: 2px 7px;
+}
+
+.dropdown-toggle::after {
+    content: '...';
+    border: none !important;
+    outline: none !important;
+}
+
+.dropdown-toggle:hover {
+    background-color: #42090c14;
+}
+
+.dropdown-toggle:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.colums footer {
+    padding-left: 10px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.add-new-card {
+    padding-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.group-btn {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+ul.card-list {
+    list-style: none;
+    margin: 0;
+    max-height: calc(100% - 45px - 36px);
+    overflow-y: auto;
+}
+
+ul.card-list::-webkit-scrollbar {
+    display: none;
+}
+
+.card-ghost {
+    transition: transform 0.18s ease;
+    transform: rotateZ(5deg);
+}
+
+.card-ghost-drop {
+    transition: transform 0.18s ease-in-out;
+    transform: rotateZ(0deg);
+    font-weight: 600;
+}
+
+.drop-preview {
+    background-color: rgba(150, 150, 200, 0.1);
+    border: 1px dashed #abc;
+    margin: 5px;
+}
+
+.colums footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
