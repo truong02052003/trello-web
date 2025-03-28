@@ -11,7 +11,7 @@ const Card = (props) => {
     };
 
     const handleChange = (e) => {
-        setNewTitle(e.target.value); // Không dùng trim(), giữ nguyên khoảng trắng
+        setNewTitle(e.target.value); 
     };
 
     const handleBlur = () => {
