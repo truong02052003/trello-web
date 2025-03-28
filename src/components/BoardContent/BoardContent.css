@@ -1,7 +1,7 @@
 .board-colums {
   display: flex;
   overflow-x: auto;
-  margin: 0 10px 10px 0;
+  margin: 10px 10px 10px 0;
   gap: 15px;
   cursor: pointer;
   overflow-y: hidden;
