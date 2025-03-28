@@ -50,9 +50,7 @@
   transition: 1s;
 }
 
-span {
-  margin-right: 2px;
-}
+
 
 .create button {
   padding: 0 12px;
@@ -165,9 +163,9 @@ span {
 .icons {
   display: flex;
   align-items: center;
-  gap: 10px;
   cursor: pointer;
   margin-left: 10px;
+  gap: 10px;
 }
 
 .icons svg,
